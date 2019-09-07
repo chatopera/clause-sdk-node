@@ -1,0 +1,35 @@
+{
+  "name": "@chatopera/node-clause",
+  "version": "1.0.0",
+  "description": "Node.js client for Chatopera Clause",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chatopera/node-clause.git"
+  },
+  "keywords": [
+    "chatbot",
+    "nlu",
+    "nlp"
+  ],
+  "author": "Hai Liang Wang <hain@chatopera.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chatopera/node-clause/issues"
+  },
+  "homepage": "https://github.com/chatopera/node-clause#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "q": "^1.5.1",
+    "thrift": "0.12.0"
+  },
+  "devDependencies": {
+    "ava": "^2.3.0"
+  }
+}
